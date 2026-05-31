@@ -5,6 +5,6 @@ Created: 31.05.2026
 License: MIT
 Task: This module contains implementations of various sorting algorithms.
 """
-import bubble_sort.py
-import quick_sort.py
-import merge_sort.py
+from .bubble_sort import bubble_sort
+from .quick_sort import quick_sort
+from .merge_sort import merge_sort
