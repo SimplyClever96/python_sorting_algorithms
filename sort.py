@@ -4,7 +4,7 @@ Author: Kevin Warschkow
 Created: 21.05.2026
 Task: 
 """
-import random, time, operator
+import operator
 
 # Sortierverfahren
 def bubble_sort(lst, op=operator.gt, key=lambda x: x):
