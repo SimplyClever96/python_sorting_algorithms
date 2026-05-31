@@ -31,14 +31,13 @@ Splits the list into halves, recursively sorts them, and merges the results into
 
 ---
 
-## 📁 Project Structure (example)
+## 📁 Project Structure
 
 sorting-algorithms/
-│
-├── sort.py
-│
-├── README.md
-└── LICENSE
+- __init__.py
+- sort.py
+- README.md
+- LICENSE
 
 ---
 
