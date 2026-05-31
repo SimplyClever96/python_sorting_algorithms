@@ -35,7 +35,9 @@ Splits the list into halves, recursively sorts them, and merges the results into
 
 sorting-algorithms/
 - __init__.py
-- sort.py
+- bubble_sort.py
+- merge_sort.py
+- quick_sort.py
 - README.md
 - LICENSE
 
