@@ -2,13 +2,12 @@
 Name: sort.py
 Author: Kevin Warschkow
 Created: 21.05.2026
-Task: 
+License: MIT
 """
 import operator
 
-# Sortierverfahren
 def bubble_sort(lst, op=operator.gt, key=lambda x: x):
-    """"""
+    """This function implements the bubble sort algorithm to sort a list in-place."""
     n = len(lst)
     for i in range(n - 1):
         swapped = False
@@ -22,11 +21,11 @@ def bubble_sort(lst, op=operator.gt, key=lambda x: x):
         if not swapped:
             break
     
-    return lst #falls gewünscht, die sortierte Liste zurückgeben, ansonsten könnte man die Funktion auch ohne Rückgabewert implementieren, da die Liste in-place sortiert wird
+    return lst # return is not necessary, but it allows to use the function in a functional style, e.g. sorted_lst = bubble_sort(lst)
 
 
 def quick_sort(lst):
-    """"""
+    """This function implements the quick sort algorithm to sort a list and returns a new sorted list."""
     n = len(lst)
     
     if n <= 1:
@@ -41,7 +40,7 @@ def quick_sort(lst):
 
 
 def merge_sort(lst):
-    """"""
+    """This function implements the merge sort algorithm to sort a list and returns a new sorted list."""
 
     def merge(lst1, lst2):
         lst = []

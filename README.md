@@ -34,21 +34,11 @@ Splits the list into halves, recursively sorts them, and merges the results into
 ## 📁 Project Structure (example)
 
 sorting-algorithms/
-.│
-.├── sorting_algorithms/
-.│   ├── init.py
-.│   ├── bubble_sort.py
-.│   ├── quick_sort.py
-.│   └── merge_sort.py
-.│
-.├── examples/
-.│   └── usage_example.py
-.│
-.├── tests/
-.│   └── test_algorithms.py
-.│
-.├── README.md
-.└── LICENSE
+│
+├── sort.py
+│
+├── README.md
+└── LICENSE
 
 ---
 
