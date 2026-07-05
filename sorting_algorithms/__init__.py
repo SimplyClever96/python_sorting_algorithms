@@ -1,5 +1,5 @@
 """
-Name: sort.py
+Name: __init__.py
 Author: Kevin Warschkow
 Created: 31.05.2026
 License: MIT
