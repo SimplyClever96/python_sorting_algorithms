@@ -20,6 +20,9 @@ Uses partitioning to recursively sort sub‑arrays and offers excellent average�
 A stable and predictable O(n log n) algorithm.  
 Splits the list into halves, recursively sorts them, and merges the results into a fully sorted list.
 
+### **Selection Sort**
+Searching for the smallest number in an unsorted list and put them to the begin. In next step selection sort looking for the next smallest number of the unsorted list and put them to the next position above the before sorted number.
+
 ---
 
 ## 📦 Project Goals
@@ -38,6 +41,7 @@ sorting-algorithms/
 - bubble_sort.py
 - merge_sort.py
 - quick_sort.py
+- selection_sort.py
 - README.md
 - LICENSE
 
@@ -65,7 +69,8 @@ Contributions are welcome.
 Feel free to open issues, submit pull requests, or suggest new algorithms to include in future versions.
 
 ⭐ Future Additions
-tbd
+- Insertion Sort
+- Search algorithms into a new Python package
 
 ---
 Happy coding!
